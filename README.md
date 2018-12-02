@@ -13,6 +13,12 @@ first:
   
 - Check if the window is created or not ,if doesn't created output "Failed to create GLFW window" and terminate.
 
+- load all OpenGL function pointers using function {gladLoadGLLoader}.
+
+-
+	
+	
+
 
 	
 
