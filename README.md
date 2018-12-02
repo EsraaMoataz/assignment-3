@@ -1,3 +1,14 @@
 # assignment-3
 
-Draw triangle with GLFW with shader .
+Problem :
+
+Draw triangle with GLFW
+
+-By using GLFW that enabled me to draw a multi color triangle with multi shader that :
+
+first:
+
+-creating a window 
+
+
+
