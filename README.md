@@ -15,7 +15,14 @@ first:
 
 - load all OpenGL function pointers using function {gladLoadGLLoader}.
 
+-Build and compile my shader program .
+
+-Using function {glCreateShader} to create shader.
+
+- create vertex shader "glCreateShader(GL_VERTEX_SHADER);".
+
 -
+	
 	
 	
 
