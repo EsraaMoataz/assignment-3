@@ -8,7 +8,10 @@ Draw triangle with GLFW
 
 first:
 
--creating a window 
+-creating a window by using function
+  {glfwCreateWindow}
+  
+- Check 
 
 
 
