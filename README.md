@@ -11,7 +11,10 @@ first:
 -creating a window by using function
   {glfwCreateWindow}
   
-- Check 
+- Check if the window is created or not ,if doesn't created output "Failed to create GLFW window" and terminate.
+
+
+	
 
 
 
