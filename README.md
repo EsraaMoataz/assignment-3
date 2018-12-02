@@ -15,13 +15,23 @@ first:
 
 - load all OpenGL function pointers using function {gladLoadGLLoader}.
 
--Build and compile my shader program .
+- Build and compile my shader program .
 
--Using function {glCreateShader} to create shader.
+- Using function {glCreateShader} to create shader.
 
 - create vertex shader "glCreateShader(GL_VERTEX_SHADER);".
 
--
+- Check for shader compile errors by using function "glGetShaderiv(vertexShader, GL_COMPILE_STATUS, &success);"
+
+- If compile error of vertex shader doesn't success then call the function "glGetShaderInfoLog" and output message "error".
+
+- create fragment shader "glCreateShader(GL_FRAGMENT_SHADER);".
+
+- Again,Check for shader compile errors by using function "glGetShaderiv(fragmentShader, GL_COMPILE_STATUS, &success);".
+
+- Again,If compile error of fragment shader doesn't success then call the function "glGetShaderInfoLog" and output message "error".
+
+	
 	
 	
 	
