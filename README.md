@@ -6,7 +6,7 @@ Draw triangle with GLFW
 
 -By using GLFW that enabled me to draw a multi color triangle with multi shader that :
 
-first:
+
 
 -creating a window by using function
   {glfwCreateWindow}
@@ -30,6 +30,21 @@ first:
 - Again,Check for shader compile errors by using function "glGetShaderiv(fragmentShader, GL_COMPILE_STATUS, &success);".
 
 - Again,If compile error of fragment shader doesn't success then call the function "glGetShaderInfoLog" and output message "error".
+
+- And then link between shaders by using function "glCreateProgram();" 
+
+- then attach shaders using
+       glAttachShader(shaderProgram, vertexShader);
+       glAttachShader(shaderProgram, fragmentShader);
+      
+ - Check for linking errors using function "glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);"
+ 
+ - finally delete shaders using function 
+        glDeleteShader(vertexShader);
+	glDeleteShader(fragmentShader);
+         
+	
+	
 
 	
 	
